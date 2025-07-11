@@ -32,11 +32,12 @@ const Footer: React.FC = () => {
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
             <Typography variant="h6" gutterBottom>
-              UMKM Market Kalimantan Tengah
+              Platform E-Commerce UMKM
             </Typography>
             <Typography variant="body2" sx={{ mb: 2 }}>
               Platform e-commerce untuk mendukung UMKM lokal di Kalimantan
-              Tengah. Bergabunglah dengan kami dalam memajukan ekonomi lokal.
+              Tengah. Bagian dari Kampanye Keamanan Siber Indonesia dalam
+              memajukan ekonomi digital yang aman.
             </Typography>
             <Box sx={{ display: "flex", gap: 1 }}>
               <IconButton color="inherit" aria-label="Facebook">
@@ -112,11 +113,11 @@ const Footer: React.FC = () => {
               </Box>
               <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                 <Email fontSize="small" />
-                <Typography variant="body2">support@umkmmarket.id</Typography>
+                <Typography variant="body2">info@kampanyesiber.id</Typography>
               </Box>
               <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                 <WhatsApp fontSize="small" />
-                <Typography variant="body2">+62 812 3456 7890</Typography>
+                <Typography variant="body2">+62 XXX-XXXX-XXXX</Typography>
               </Box>
             </Box>
           </Grid>
@@ -130,12 +131,17 @@ const Footer: React.FC = () => {
             justifyContent: "space-between",
             alignItems: "center",
             flexWrap: "wrap",
+            gap: 2,
           }}
         >
-          <Typography variant="body2">
-            © 2024 UMKM Market Kalimantan Tengah. Dikembangkan oleh Jitara
-            Software House.
-          </Typography>
+          <Box sx={{ display: "flex", flexDirection: "column", gap: 0.5 }}>
+            <Typography variant="body2">
+              © 2025 Kampanye Keamanan Siber Indonesia. All rights reserved.
+            </Typography>
+            <Typography variant="body2" sx={{ opacity: 0.8 }}>
+              Dibuat oleh Muhammad Hadianur Al Rafi
+            </Typography>
+          </Box>
           <Box sx={{ display: "flex", gap: 2, mt: { xs: 1, md: 0 } }}>
             <Link
               href="/privacy"

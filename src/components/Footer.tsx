@@ -36,8 +36,8 @@ const Footer: React.FC = () => {
             </Typography>
             <Typography variant="body2" sx={{ mb: 2 }}>
               Platform e-commerce untuk mendukung UMKM lokal di Kalimantan
-              Tengah. Bagian dari Kampanye Keamanan Siber Indonesia dalam
-              memajukan ekonomi digital yang aman.
+              Tengah. Bergabunglah dengan kami dalam memajukan ekonomi digital
+              dan perdagangan online yang berkelanjutan.
             </Typography>
             <Box sx={{ display: "flex", gap: 1 }}>
               <IconButton color="inherit" aria-label="Facebook">
@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
               </Box>
               <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                 <Email fontSize="small" />
-                <Typography variant="body2">info@kampanyesiber.id</Typography>
+                <Typography variant="body2">support@ecommerce-umkm.id</Typography>
               </Box>
               <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                 <WhatsApp fontSize="small" />
@@ -136,7 +136,7 @@ const Footer: React.FC = () => {
         >
           <Box sx={{ display: "flex", flexDirection: "column", gap: 0.5 }}>
             <Typography variant="body2">
-              © 2025 Kampanye Keamanan Siber Indonesia. All rights reserved.
+              © 2025 e-commerce umkm. All rights reserved.
             </Typography>
             <Typography variant="body2" sx={{ opacity: 0.8 }}>
               Dibuat oleh Muhammad Hadianur Al Rafi

@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "_id": "admin001",
+      "email": "admin@umkmmarket.id",
+      "username": "admin",
+      "firstName": "Admin",
+      "lastName": "System",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "_id": "vendor001",
+      "email": "vendor1@example.com",
+      "username": "tokobuah",
+      "firstName": "Budi",
+      "lastName": "Santoso",
+      "role": "vendor",
+      "isActive": true,
+      "createdAt": "2024-01-02T00:00:00Z"
+    },
+    {
+      "_id": "customer001",
+      "email": "customer1@example.com",
+      "username": "pelanggan1",
+      "firstName": "Sari",
+      "lastName": "Dewi",
+      "role": "customer",
+      "isActive": true,
+      "createdAt": "2024-01-03T00:00:00Z"
+    }
+  ],
+  "stores": [
+    {
+      "_id": "store001",
+      "name": "Toko Buah Segar Kalimantan",
+      "description": "Menyediakan buah-buahan segar lokal Kalimantan Tengah",
+      "owner": "vendor001",
+      "slug": "toko-buah-segar-kalimantan",
+      "address": {
+        "street": "Jl. Diponegoro No. 123",
+        "city": "Palangka Raya",
+        "province": "Kalimantan Tengah",
+        "postalCode": "73111"
+      },
+      "phone": "0813-xxxx-xxxx",
+      "isActive": true,
+      "isVerified": true,
+      "createdAt": "2024-01-02T00:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "cat001",
+      "name": "Buah-buahan",
+      "slug": "buah-buahan",
+      "description": "Buah segar lokal dan import",
+      "isActive": true
+    },
+    {
+      "_id": "cat002",
+      "name": "Makanan Tradisional",
+      "slug": "makanan-tradisional",
+      "description": "Makanan khas Kalimantan Tengah",
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "_id": "prod001",
+      "name": "Durian Montong Lokal",
+      "description": "Durian montong segar dari kebun lokal Kalimantan Tengah. Rasa manis dan daging tebal.",
+      "store": "store001",
+      "category": "cat001",
+      "price": 85000,
+      "comparePrice": 100000,
+      "stock": 25,
+      "sku": "DUR-MON-001",
+      "images": ["/uploads/durian-montong.jpg"],
+      "isLocal": true,
+      "isActive": true,
+      "isFeatured": true,
+      "createdAt": "2024-01-05T00:00:00Z"
+    },
+    {
+      "_id": "prod002",
+      "name": "Rambutan Binjai",
+      "description": "Rambutan binjai manis dari kebun rakyat Kalimantan Tengah",
+      "store": "store001",
+      "category": "cat001",
+      "price": 35000,
+      "stock": 50,
+      "sku": "RAM-BIN-001",
+      "images": ["/uploads/rambutan-binjai.jpg"],
+      "isLocal": true,
+      "isActive": true,
+      "createdAt": "2024-01-06T00:00:00Z"
+    }
+  ]
+}

@@ -17,11 +17,8 @@ Platform e-commerce yang dirancang khusus untuk mendukung UMKM (Usaha Mikro, Kec
 - [🚀 Quick Start](#🚀-quick-start)
 - [📂 Struktur Project](#📂-struktur-project)
 - [🌐 API Endpoints](#🌐-api-endpoints)
-- [📸 Screenshots](#📸-screenshots)
 - [🤝 Kontribusi](#🤝-kontribusi)
 - [🐛 Troubleshooting](#🐛-troubleshooting)
-- [📄 Lisensi](#📄-lisensi)
-- [📞 Kontak](#📞-kontak)
 
 ---
 

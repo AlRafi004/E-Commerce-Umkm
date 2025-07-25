@@ -61,21 +61,6 @@ Platform e-commerce yang dirancang khusus untuk mendukung UMKM (Usaha Mikro, Kec
 - 🏪 **Vendor**: Customer + mengelola toko & produk  
 - 👨‍💼 **Admin**: Akses penuh, moderasi & analitik
 
-### Akun Demo
-```bash
-👤 Customer
-Email: customer@gmail.com
-Password: customer123
-
-🏪 Vendor
-Email: vendor@durianhasan.com
-Password: vendor123
-
-👨‍💼 Admin
-Email: admin@demo.com
-Password: password123
-```
-
 ---
 ## 🛠️ Tech Stack
 
